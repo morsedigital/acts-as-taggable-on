@@ -20,3 +20,10 @@ appraise 'activerecord-7.2' do
   gem 'sqlite3', '~> 1.4'
   gem 'mysql2', '~> 0.5'
 end
+
+appraise 'activerecord-8.0' do
+  gem 'activerecord', '~> 8.0.0'
+  gem 'pg'
+  gem 'sqlite3', '~> 1.4'
+  gem 'mysql2', '~> 0.8'
+end
